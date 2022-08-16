@@ -5,12 +5,12 @@ After=graphical.target
 
 [Service]
 Environment=DISPLAY=:0.0
-Environment=XAUTHORITY=/home/sign-admin/.Xauthority
+Environment=XAUTHORITY=/home/sign/.Xauthority
 Type=simple
 ExecStart=/bin/bash /etc/kiosk-start.sh
 Restart=on-abort
-User=sign-admin
-Group=sign-admin
+User=sign
+Group=sign
 
 [Install]
 WantedBy=graphical.target
