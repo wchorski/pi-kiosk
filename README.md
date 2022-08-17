@@ -4,10 +4,15 @@ make a raspberry pi auto full screen to a webpage
 
 ### ⚙ Settings
 0. create a user `sign`
-0. disable screen blanking / display sleep
-  + `sudo raspi-config`
+0. `sudo raspi-config`
++ disable screen blanking / display sleep
   + `2 Display Options`
   + `D4 Screen Blanking` say No
++ auto login and boot to desktop
+  + 1  System Options
+  + S5 Boot / auto login
+  + B4 Desktop Autologin
+
 <br>
 
 ### 🏭 Production

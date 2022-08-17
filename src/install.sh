@@ -14,8 +14,8 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install xdotool unclutter sed
 
 ### raspi-config settings
-echo ">> 1 System Options > S5 Boot / auto login to desktop [sudo raspi-config]"
-echo ">> 7 Advanced Options > A5 Resolution"
+#echo ">> 1 System Options > S5 Boot / auto login to desktop [sudo raspi-config]"
+#echo ">> 7 Advanced Options > A5 Resolution"
 #sudo raspi-config
 
 ### create service
