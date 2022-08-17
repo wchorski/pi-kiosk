@@ -23,4 +23,3 @@ sudo cp ./kiosk.service /etc/systemd/system/
 sudo cp ./start.sh /etc/kiosk-start.sh
 sudo systemctl enable kiosk.service
 sudo systemctl start kiosk.service
-sudo systemctl status kiosk.service
